@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> My example book</title>
+    </title>
+</head>
+
+<style>
+
+    .content{
+        width: 600px;
+        height: 250px;
+        background-color: turquoise;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 10px;
+        line-height: 1.6em; 
+    }
+    li, td {
+        list-style: none;
+        text-align: center;
+    }
+
+    a{
+        float: right;
+        background-color: #ffffff;
+        margin: 5px;
+        padding: 5px;
+        color: gray;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+     a:hover{
+         background-color: gray;
+         color: white;
+     }
+</style>
+
+<body>
+
+    <div class="content">
+        <h2>Olá <span id="name">name</span>, por favor confira sua compra:</h2>
+<table>
+        <tr>
+            <td>Custon sign: </td>
+            <td id="userSign"></td>
+        </tr>
+        <tr>
+            <td>Total Tiles: </td>
+            <td id="tiles"></td>
+        </tr>
+        <tr>
+            <td>Subtotal:</td>
+            <td id="subTotal"></td>
+        </tr>
+        <tr>
+            <td>Shipping:</td>
+            <td id="shipping"></td>
+        </tr>
+        <tr>
+            <td>Grand Total:</td>
+            <td id="grandTotal"></td>
+        </tr>
+    </table>
+        <a href="#">Pay Now</a>
+    </div>
+
+    <script src="../c02/js/my-example.js"></script>
+</body>
+
+</html>
