@@ -18,8 +18,8 @@
     specialRate = document.getElementById('specialRate');
 
     hotelName.textContent = hotel.name;
-    roomRate.textContent = hotel.roomRate;
-    specialRate.textContent = hotel.offerPrice();
+    roomRate.textContent = '$' + hotel.roomRate;
+    specialRate.textContent = '$' + hotel.offerPrice();
 
 var expiryMsg, today, elEnds;
 
